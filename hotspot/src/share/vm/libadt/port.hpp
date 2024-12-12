@@ -91,7 +91,7 @@ inline int max( int a, int b) { return a > b ? a : b; }
 #define IMPLEMENTATION
 #include <stdlib.h>
 #include <memory.h>
-
+inline long abs( long x ) { return x < 0 ? -x : x; }
 #elif defined(_MSC_VER)
 // Microsoft Visual C++
 //#define INTERFACE
